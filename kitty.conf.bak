@@ -20,7 +20,7 @@ map cmd+y launch --type=tab
 # tab display
 tab_bar_edge top
 tab_bar_style powerline
-tab_powerline_style slanted
+tab_powerline_style angled
 # tab_separator " ┇"
 tab_activity_symbol "*"
 
@@ -38,12 +38,13 @@ map alt+9 nth_window 8
 map cmd+return launch --cwd=current
 map cmd+shift+return launch
 
+enabled_layouts tall:bias=50;full_size=1;mirrored=false
 
 
 # other
 macos_quit_when_last_window_closed yes
 font_size 13.0
-cursor_shape underline
+cursor_shape block
 shell_integration no-cursor
 
 
@@ -2403,6 +2404,6 @@ shell_integration no-cursor
 
 
 # BEGIN_KITTY_THEME
-# Ciapre
+# Neopolitan
 include current-theme.conf
 # END_KITTY_THEME
